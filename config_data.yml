@@ -8,8 +8,9 @@
 # This tells sdg-build to perform "translated builds" for each of the specified
 # languages. Each build is in its own subfolder - one for each language.
 languages:
-  - en
-  - es
+  - ko
+#  - en
+#  - es
 
 # Destination directory
 # ---------------------
@@ -57,8 +58,8 @@ inputs:
     # need to change this setting. It is intended for sites where the data needs
     # to be "built" before being processed by sdg-build.
     git_data_dir: data
-  - class: InputSdmxMeta
-    meta_suffix: __GLOBAL
+#  - class: InputSdmxMeta
+#    meta_suffix: __GLOBAL
 
 # Translations
 # ------------
@@ -72,8 +73,8 @@ inputs:
 translations:
   # This pulls in translations from a Git repository.
   - class: TranslationInputSdgTranslations
-    source: https://github.com/open-sdg/sdg-translations.git
-    tag: 2.1.0
+    source: https://github.com/karajjang/translations.git
+    tag: 2.1.0-dev
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
