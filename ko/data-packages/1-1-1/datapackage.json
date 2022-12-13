@@ -11,26 +11,32 @@
       "schema": {
         "fields": [
           {
-            "name": "Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "A",
-                "B"
-              ]
-            },
-            "title": "Group"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권"
+              ]
+            },
+            "title": "지역"
           }
         ]
       }
