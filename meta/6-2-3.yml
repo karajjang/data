@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 경제적 성과<br>
+  <b>하위영역</b>: 일
+indicator_name_sub: 근로시간
+indicator_definition: 정규업무시간과 연장·휴일근로시간의 합으로 상용근로자의 총근로시간을 의미
+indicator_importance: 시간당 노동생산성이 높아질수록 생산효율이 높아져 근로시간은 줄어드는 경향이 있음
+computation_calculations: "소정근로시간+초과근로시간의 합<br>수도권 근로시간: ∑{시도 월평균 임금×(시도 상용 근로자 수/수도권 상용 근로자 수)} <br>* 상용 근로자수는 경제활동인구조사 종사상지위별 취업자의 상용근로자 수임"   
+statistics_name: >-
+  고용노동부 「사업체노동력조사」, 통계청 「경제활동인구조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=118&tblId=DT_118N_MON049&conn_path=I3<br>
+  (2020년이후~) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL15005E_1&conn_path=I2
+computation_units: "시간"
+computation_coverage: "시도"
+#data_provision_year: 2011년~2021년
+data_preparation_year: 2011년~2021년
+#data_download: "-"
+data_generation_cycle: "1년"
+#update_cycle: "-"

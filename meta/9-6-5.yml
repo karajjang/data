@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 주거
+indicator_name_sub: 공공임대주택 수
+indicator_definition: 임대 또는 임대후, 분양 전환을 목적으로 공급하는 공공주택재고량의 합
+indicator_importance: 지자체등에서 임대주택의 건설실적, 재고, 분양전환실적등을 파악하여 주택정책수립에 필요한 기초자료를 제공함
+computation_calculations: 공공부문 임대주택의 합
+statistics_name: >-
+  국토교통부, 「주거실태조사」<br>
+  (2009년~2019년) https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_5525&conn_path=I2<br>
+  (2020년) https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_6825&conn_path=I3
+computation_units: "호"
+computation_coverage: "시도"
+#data_provision_year: "2009년 ~ 2020년"
+data_preparation_year: "2009년 ~ 2020년"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "1년"
+update_cycle: "익년 12월"

@@ -1,0 +1,19 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 주거
+indicator_name_sub: PIR
+indicator_definition: 지역별 연 소득 대비 주택가격 비율
+indicator_importance: 무주택자의 주택구입 가능성을 파악하는데 활용되는 지표<br>지역별 주택구입능력을 비교해 봄으로써 주택시장의 안정성이나 주택가격 수준을 이해할 수 있음
+computation_calculations: >-
+  평균 주택 가격÷평균 가구 소득<br>
+  (수도권) ∑{시도 PIR×(시도 가구당 연평균 경상소득/수도권 가구당 연평균 경상소득)}으로 산출
+statistics_name: >-
+  주택금융연구원 「주택금융 및 보금자리론 실태조사」, 통계청 「가계금융복지조사」 <br>
+  https://www.hf.go.kr/research/portal/stat/easyStatPage/T188183126881844.do
+computation_units: "배"
+computation_coverage: "시도"
+#data_provision_year: "2004년 ~ 2022년 5월"
+data_preparation_year: "2004년 ~ 2021년"
+#data_download: "2022년 8월 18일"
+data_generation_cycle: "월, 년"
+#update_cycle: "-"

@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 환경<br>
+  <b>하위영역</b>: 안전
+indicator_name_sub: 교통사고 발생 건수
+indicator_definition: 교통사고란 도로교통법 제2조에 규정하는 도로에서 차의 교통으로 인하여 발생한 인적피해를 수반하는 교통사고로 차의 교통으로 인하여 사람을 사상한 사고 중 경찰에서 접수하여 처리한 사고를 의미함
+indicator_importance: 경제발전에 따라 급격하게 증가하고 있는 자동차로 인해 심각한 사회문제로 대두되고 있는 교통사고에 대하여 국민에게 교통사고의 심각성과 우리나라가 선진국으로 진입함에 있어 반드시 개선시켜야 할 문제임을 인식시켜줌
+computation_calculations: 그 해 경찰청에 접수된 교통사고 발생건수
+statistics_name: >-
+  경찰청(교통사고통계), 국토교통부(자동차등록대수)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21051&conn_path=I2
+computation_units: "건"
+computation_coverage: "시군구"
+#data_provision_year: "2005년 ~ 2020년"
+data_preparation_year: "2005년 ~ 2020년"
+#data_download: "2022년 6월 13일"
+data_generation_cycle: "1년"
+update_cycle: "익년 7월"

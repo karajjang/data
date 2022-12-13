@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 주거
+indicator_name_sub: 주택당 평균 거주인 수
+indicator_definition: 연면적(대지에 들어선 건축물의 바닥면적을 모두 합한 것)의 평균 거주인수
+indicator_importance: 변화하는 가구 구성에 맞추어 주거환경의 질을 파악할 수 있음<br>문화관련 정책 수립 및 집행의 기초자료로 활용이 가능함
+computation_calculations: 연면적의 평균 거주인 수
+statistics_name: >-
+  통계청, 「주택총조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1JU1503&conn_path=I3
+computation_units: "명"
+computation_coverage: "시군구"
+#data_provision_year: "2015년 ~ 2020년"
+data_preparation_year: "2015년 ~ 2020년"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

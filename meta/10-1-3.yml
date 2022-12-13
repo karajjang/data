@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 가족/친밀성
+indicator_name_sub: 1인 가구 비율
+indicator_definition: 일반가구 중 1인 가구가 차지하는 비율
+indicator_importance: 가구 구성 관련 지표로, 급속한 인구구조의 변화에 대응하기 위한 정책적 관심을 필요로 하는 가구에 해당됨
+computation_calculations: (1인 가구수÷일반가구수)×100
+statistics_name: >-
+  통계청, 「인구총조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21161&conn_path=I3
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: "-"
+data_preparation_year: "2005년, 2010년 2015~2020년"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "1년( 2015년 이후 ~)"
+update_cycle: "익년 9월"

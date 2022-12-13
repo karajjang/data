@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 시민사회
+indicator_name_sub: 사회단체 참여율
+indicator_definition: 13세 이상 인구 중 지난 1년동안 시민 사회 단체에 참여 및 활동여부 비율
+indicator_importance: 사회단체 참여 여부 및 종류를 파악하여 국민들의 사회참여 의식 파악이 가능함
+computation_calculations: (“참여한 적 있다” 응답자수÷전체 응답자수)×100
+statistics_name: >-
+  통계청, 「사회조사」<br>
+  시도 자료<br>
+  - 2011년 ~ 2017년: https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1SSSP052R&conn_path=I2<br>
+  - 2019년 ~ 2021년: https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1SSSP048R&conn_path=I3<br>
+  수도권 자료: 사회조사 MD 활용(https://mdis.kostat.go.kr/index.do)
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "1999년, 2003년, 2006년, 2009년~2021년(홀수년) "
+data_preparation_year: "2011년~2021년(홀수년)<br>* 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대"
+#data_download: "2022년 7월 20일"
+data_generation_cycle: "2년"
+update_cycle: "조사기준년도 11월"

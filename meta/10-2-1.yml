@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 시민사회
+indicator_name_sub: 기초생활보장 수급자 수
+indicator_definition: 국민기초생활보장법에 따라 급여를 받는 자
+indicator_importance: 사회보장차원에서 국가의 보호를 필요로 하는 최저생계비이하의 저소득층에 대한 정책적 지원을 위한 기초자료로 활용이 가능함
+computation_calculations: ‘일반+조건부+시설+특례+기타’ 수급자의 합(월별데이터÷12)
+statistics_name: >-
+  사회보장정보시스템(행복e음)<br>
+  https://bokjiro.go.kr/ssis-teu/twatga/sociGuaStat/SociGuaStatDetailIframe.do?datsNo=7&datsClNo=1012&datsClCrit=WS
+computation_units: "명"
+computation_coverage: "시군구"
+#data_provision_year: "2013년 ~ 2021년"
+data_preparation_year: "2013년 ~ 2021년"
+#data_download: "2022년 6월 13일"
+data_generation_cycle: "월"
+#update_cycle: "-"

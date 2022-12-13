@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 시민사회
+indicator_name_sub: 기부율
+indicator_definition: 13세 이상 인구 중 현금(후원금)이나 물품을 기부를 한 사람들의 비율
+indicator_importance: 기부의 활성화에 따른 사회적 결속 및 유대, 공동체 활성화 등 삶의 질 측정에 중요함
+computation_calculations: >-
+  (“현금이나 물품 기부함” 응답자수÷전체 응답자수)×100<br>
+  *응답자 수: 가구원 가중값 적용
+statistics_name: >-
+  통계청, 「사회조사」<br>
+  (시도 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1SSSP062R&conn_path=I3<br>
+  (수도권 자료 - 사회조사 MD 활용) https://mdis.kostat.go.kr/index.do
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "1999년, 2003년, 2006년, 2009년~2021년(홀수년) "
+data_preparation_year: "2011년~2021년(홀수년)<br>* 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대"
+#data_download: "2022년 6월 13일"
+data_generation_cycle: "2년"
+update_cycle: "조사기준년도 11월"

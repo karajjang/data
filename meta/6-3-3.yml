@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 경제적 성과<br>
+  <b>하위영역</b>: 소득/소비/자산
+indicator_name_sub: 가구당 순자산
+indicator_definition: 전체 가구의 평균 자산에서 평균 부채를 차감한 금액
+indicator_importance: 동일한 소득 수준의 지역경제라 하더라도 가구순자산이 높은 지역이 더 건실한 지역경제를 의미함으로 지역별 가구경제 우위를 판별하는데 사용이 가능함
+computation_calculations: 전체가구의 평균 자산-전체가구의 평균 부채
+statistics_name: >-
+  통계청, 한국은행, 금융감독원, 「가계금융복조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1HDAA01&conn_path=I2
+computation_units: "만원"
+computation_coverage: "시도"
+#data_provision_year: 2017년~2021년
+data_preparation_year: 2017년~2021년
+#data_download: "/ 2021년 12월 16일"
+data_generation_cycle: "1년"
+update_cycle: "조사기준년도 12월"

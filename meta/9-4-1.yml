@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 소득/소비
+indicator_name_sub: 가구당 연평균 경상소득
+indicator_definition: 가구에서 한 해 동안 경상적(정기적, 규칙적)으로 벌어들이는 평균 소득
+indicator_importance: 지역주민의 평균적인 소득수준을 나타내며 경제발전의 결과로 나타나는 가장 중요한 요소  지역경제발전 결과이자 경제의 활동성을 지탱해주는 가장 중요한 축으로 간주됨
+computation_calculations: 당해년 총 경상소득 ÷ 가구 수
+statistics_name: >-
+  통계청, 한국은행, 금융감독원 「가계금융복지조사」<br>
+  (경상소득) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1HDBA01&conn_path=I3 <br>
+  (가구 수) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1BZ0505&conn_path=I3
+computation_units: "만원"
+computation_coverage: "시도"
+#data_provision_year: 1995년~2020년
+data_preparation_year: 2001년~2020년
+#data_download: "-"
+data_generation_cycle: "1년"
+#update_cycle: "-"

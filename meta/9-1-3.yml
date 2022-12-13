@@ -1,0 +1,19 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 건강
+indicator_name_sub: 인구 천 명당 의사 수
+indicator_definition: 인구 천 명당 의료기관에 종사하는 의사(의사, 한의사, 치과의사)의 수
+indicator_importance: 적정 의료인력 확보를 위한 기초자료로 활용하여 지역별 의료복지수준 파악이 가능함
+computation_calculations: >-
+  (의료기관종사 의사수÷주민등록인구수)×1,000<br>
+  *인구: 행정안전부, 주민등록인구현황
+statistics_name: >-
+  국민건강보험공단(건강보험통계), 행정안전부(주민등록인구현황)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20981&conn_path=I3
+computation_units: "명"
+computation_coverage: "시군구"
+#data_provision_year: 2007년 ~ 2021년
+data_preparation_year: 2007년 ~ 2021년
+#data_download: "2022년 6월 3일 / 2022년 3월 15일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

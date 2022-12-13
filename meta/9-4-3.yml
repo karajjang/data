@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 소득/소비
+indicator_name_sub: 주관적 소득수준
+indicator_definition: 가구의 월 평균 최소 생활비 대비 가구의 실제소득의 수준
+indicator_importance: 가구의 주관적인 소득에 대한 수준인식으로 가구의 물질적 생활수준에 대한 주관적 평가에서 중요
+computation_calculations: >-
+  (“매우 여유”, “약간 여유” 응답자수÷전체 응답자수)×100<br>
+  * 응답자 수: 가구원 가중값 적용
+statistics_name: >-
+  통계청, 「사회조사」<br>
+  (시도 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1SSIC010R&conn_path=I3<br>
+  (수도권 자료 - 사회조사 MD 활용) https://mdis.kostat.go.kr/index.do
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "1999년, 2003년, 2007년 ~ 2021년(홀수년)"
+data_preparation_year: "2011년 ~ 2021년(홀수년)  * 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대"
+#data_download: "2022년 7월 20일"
+data_generation_cycle: "2년"
+update_cycle: "조사기준년도 11월"

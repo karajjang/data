@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 주거
+indicator_name_sub: 월세/전세 가격지수
+indicator_definition: 월세/전세 가격변동을 지수로 나타낸 수치
+indicator_importance: 주택시장의 동향파악, 주택정책 수립의 기초자료로 활용이 가능함
+computation_calculations: >-
+  월별 월세/전세 가격지수 (기준월 : 2021.06 = 100)
+statistics_name: >-
+  한국부동산원, 「전국주택가격동향조사」<br>
+  부동산통계정보(https://www.reb.or.kr/r-one/main.do) > 전국주택가격동향조사
+computation_units: "점"
+computation_coverage: "시군구"
+#data_provision_year: "월세: 2015년~2021년 / 전세: 2003년 ~ 2021년"
+data_preparation_year: "월세: 2015년~2021년 / 전세: 2003년 ~ 2021년"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "월"
+#update_cycle: "-"

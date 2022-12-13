@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 경제적 성과<br>
+  <b>하위영역</b>: 일
+indicator_name_sub: 사업체 수 및 종사자 수
+indicator_definition: 각 산업의 사업체 수 및 각 산업 내에 취업한 인원수
+indicator_importance: 업종에 따라서 지역별로 분포하는 사업체와 인원수를 측정할 수 있으나 지역별 사업체분포가 다르므로 산업의 분산이나 집적을 고려하여 고용자별/산업별 분포패턴을 파악한뒤 사용에 유의해야함
+computation_calculations: 대한민국의 행정권이 미치는 전지역에 소재하는 모든 사업체 및 종사자를 조사한 수
+statistics_name: >-
+  통계청, 「전국사업체조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1K52C03&conn_path=I3
+computation_units: "개, 명"
+computation_coverage: "시도"
+#data_provision_year: 2006년~2019년
+data_preparation_year: 2006년~2019년
+#data_download: "/ 2021년 5월 18일"
+data_generation_cycle: "1년"
+update_cycle: "조사기준년도 익년 12월"

@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 건강
+indicator_name_sub: 비만 유병률
+indicator_definition: 체질량지수(kg/㎡)가 25이상인 사람의 분율
+indicator_importance: 비만에 대한 국민관심 증대 및 사회적 비용증가 추세에 따라 건강영역을 대표하며, 만성질환의 주요원인이 되는 비만의 관리 및 국민건강증진 정책의 개발을 위한 기초자료로 활용이 가능함
+computation_calculations: >-
+  (체질량지수(kg/㎡)가 25이상인 사람÷전체 응답자수)×100<br>
+  * 응답자 수: 가구원 가중값 적용      ** 2019년은 신체계측 값 / 나머지는 자가보고 
+statistics_name: >-
+  보건복지부, 「지역사회건강조사」<br>
+  (시군구 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL202002E&conn_path=I2<br>
+  (전국/수도권 자료) 질병관리청 > 지역사회건강조사 > 자료실 > 보고서 > 지역건강통계 한눈에 보기
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: 2008년 ~ 2020년
+data_preparation_year: 2008년 ~ 2020년
+#data_download: "2022년 6월 3일"
+data_generation_cycle: "1년"
+update_cycle: "조사기준년도 익년3월"

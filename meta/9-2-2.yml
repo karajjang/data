@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 교육/훈련
+indicator_name_sub: 학급당 학생 수
+indicator_definition: 1개의 학급당 학생의 수
+indicator_importance: 교육여건의 수준을 판단할 수 있는 지표로 교사와 학생 간의 긴밀한 상호작용 파악이 가능하고 이를 통해 내실있는 교육 실현을 가늠할 수 있음
+computation_calculations: 재적학생수÷총 학급수
+statistics_name: >-
+  한국교육개발원(교육기본통계)<br>
+  (시도 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL15001&conn_path=I3<br>
+  (수도권 자료) 교육통계서비스(https://kess.kedi.re.kr/index) > 알림 서비스 > 주요요청자료 > 주제별 공개데이터
+computation_units: "명"
+computation_coverage: "시군구"
+#data_provision_year: 1999년~ 2021년
+data_preparation_year: 2001년 ~ 2021년
+#data_download: "2022년 6월"
+data_generation_cycle: "1년"
+update_cycle: "조사기준년도 8월"

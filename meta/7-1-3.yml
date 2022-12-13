@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 지속가능성<br>
+  <b>하위영역</b>: 환경
+indicator_name_sub: 신재생에너지 보급률
+indicator_definition: 전체 전력소비량 대비 신재생에너지 발전량 비율
+indicator_importance: 지역 내 친환경에너지 이용률을 측정한 것으로 환경친화적 발전의 지향성 수준을 측정할 수 있음
+computation_calculations: (신재생에너지발전량÷전력소비량)×100
+statistics_name: >-
+  한국에너지공단(신재생에너지 보급 및 산업통계), 한국전력공사(한국전력통계)<br>
+  (분자) https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=TX_33701_A005&conn_path=I2<br>
+  (분모) https://home.kepco.co.kr/kepco/KO/ntcob/ntcobView.do?boardSeq=21051405&parnScrpSeq=21047466&depth=0&boardNo=0&boardCd=BRD_000099&replyRole=&pageIndex=1&searchKeyword=&searchCondition=&menuCd=FN05030103&sati_cmnt=%ED%86%B5%EA%B3%84%EA%B4%80%EB%A0%A8+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%EB%B0%8F+%EA%B8%B0%ED%83%80%EC%82%AC%ED%95%AD+%EC%9E%85%EB%A0%A5&sati_email=&chk_sati_cmnt_def=1
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: 2009년~2020년
+data_preparation_year: 2009년~2020년
+#data_download: "2022년 7월 8일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

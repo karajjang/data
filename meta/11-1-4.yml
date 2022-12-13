@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 환경<br>
+  <b>하위영역</b>: 생활환경
+indicator_name_sub: 재생에너지 비율
+indicator_definition: 신재생에너지 생산량 중 재생에너지가 차지하는 비율
+indicator_importance: 지역내 친환경에너지 이용률을 측정한 것으로 환경친화적 발전의 지향성을 나타냄
+computation_calculations: (재생에너지÷신재생에너지생산량)×100
+statistics_name: >-
+  한국에너지공단 (신재생에너지 보급 및 산업통계)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=TX_33701_A004&conn_path=I3<br>
+  * 2014년 이전 자료는 자료가 부적확함
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "2014년 ~ 2020년"
+data_preparation_year: "2014년 ~ 2020년"
+#data_download: "2022년 6월 13일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

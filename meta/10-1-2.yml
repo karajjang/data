@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 가족/친밀성
+indicator_name_sub: 가족관계 만족도
+indicator_definition: 13세이상 인구 중 가족(배우자, 자녀, 부모, 형제자매 등)과의 관계에 얼마나 만족하는지의 비율
+indicator_importance: 사회조직의 기본단위로 사회생활의 핵심구성요소가 되는 가족과의 전반적인 관계에 대한 주관적 의식파악이 가능함
+computation_calculations: (“매우 만족”, “약간 만족” 응답자수÷전체 응답자수)×100
+statistics_name: >-
+  통계청, 「사회조사」<br>
+  2006년, 2008년 기준이 다름<br>
+  2002년 가족관계점반적 만족도 문항이 없음<br>
+  (시도 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1SSFA139R&conn_path=I3<br>
+  (수도권 자료 - 사회조사 MD 활용) https://mdis.kostat.go.kr/index.do
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "2006년 ~ 2020년(짝수년)"
+data_preparation_year: "2012년 ~ 2020년(짝수년)<br>* 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "2년"
+update_cycle: "조사기준년 11월"

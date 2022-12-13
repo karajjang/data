@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 환경<br>
+  <b>하위영역</b>: 생활환경
+indicator_name_sub: 일반폐기물 재활용률
+indicator_definition: 발생되는 폐기물 중 재활용되는 폐기물의 비율
+indicator_importance: 경제활동과 밀접하게 연계되어 있으며, 재활용률이 높아질수록 환경오염 발생가능성이 감소함으로 생활환경 행태관련하여 중요함
+computation_calculations: (총 재활용량÷생활폐기물 총발생량)×100
+statistics_name: >-
+  환경부(전국폐기물발생 및 처리현황)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21311&conn_path=I3
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "1975년 ~ 2020년"
+data_preparation_year: "2001년 ~ 2020년"
+#data_download: "2022년 6월 13일"
+data_generation_cycle: "1년"
+update_cycle: "조사기준년도 익년 12월"

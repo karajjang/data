@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 가족/친밀성
+indicator_name_sub: 독거노인 비율
+indicator_definition: 전체 일반가구 중 혼자 살고 있는 노인가구의 비율
+indicator_importance: 고령화 사회에서 경제적 측면 뿐만 아니라 사회관계 측면에서 어려움에 직면하고 있는 노인들의 생활의 질을 보여줌
+computation_calculations: >-
+  (65세이상 1인가구수÷65세이상 인구수)×100<br>
+  * 인구총조사 등록센서스 내국인 기준
+statistics_name: >-
+  통계청, 「인구총조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL12701&conn_path=I2<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1IN1503&conn_path=I2
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: "-"
+data_preparation_year: "2005년, 2010년, 2015년~2020년"
+#data_download: "2022년 7월 14일"
+data_generation_cycle: "1년<br>* 인구총조사 등록센서스 실시로 2015년부터 1년단위로 자료제공"
+update_cycle: "조사기준년도 익년 9월"

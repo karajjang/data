@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 가족/친밀성
+indicator_name_sub: 유아 천 명당 보육시설 수
+indicator_definition: 유아 천 명당 어린이집의 수
+indicator_importance: 유아 돌봄 지원 관련 지표로, 보육정책 수립의 기초자료로 활용이 가능함
+computation_calculations: (총 보육시설수÷주민등록인구(0~5세))×1,000
+statistics_name: >-
+  보건복지부(어린이집 및 이용자통계), 행정안전부(주민등록인구현황)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20951&conn_path=I3
+computation_units: "개소/1000명"
+computation_coverage: "시군구"
+#data_provision_year: "2008년 ~ 2121년"
+data_preparation_year: "2008년 ~ 2121년"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "1년"
+update_cycle: "익년 4월"

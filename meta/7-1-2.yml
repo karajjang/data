@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 지속가능성<br>
+  <b>하위영역</b>: 환경
+indicator_name_sub: 초미세먼지 대기오염도
+indicator_definition: 도심(거주)지역의 평균 대기오염물질
+indicator_importance: 대기에 대한 질적 개선 정도로, 대기오염의 현황파악 및 미세먼지 등, 대기 관련 정책의 수립‧이행‧평가 시 기초자료로 활용이 가능함
+computation_calculations: >-
+  월별 대기오염도의 평균<br>
+  * 수도권 값: 시군구 월별데이터의 합의 평균, 전국/시도는 대기환경연보 자료
+statistics_name: >-
+  환경부(대기오염도현황), 「대기환경 연보」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_03_0200176&conn_path=I3<br>
+  (대기환경연보) https://www.airkorea.or.kr/web/detailViewDown?pMENU_NO=125
+computation_units: "μg/m³"
+computation_coverage: "시군구"
+#data_provision_year: 2015년 ~ 2020년
+data_preparation_year: 2015년 ~ 2020년
+#data_download: "/ 2022년 5월 17일"
+data_generation_cycle: "월"
+#update_cycle: "-"

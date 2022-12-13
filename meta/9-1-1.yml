@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 건강
+indicator_name_sub: 건강관련 삶의 질(EQ-5D)
+indicator_definition: 건강관련 삶의 질의 5가지 차원(운동능력, 자기관리, 일상활동, 통증/불편, 불안/우울)의 기술체계를 종합한 지표 
+indicator_importance: 개인의 건강상태에 대한 주관적 지표로 건강관련 삶의 질을 대표함
+computation_calculations: >-
+  1-(0.05+0.096*운동능력명령어계산값+0.418*운동능력명령어계산값+0.046*자기관리명령어계산값+0.136*자기관리명령어계산값+0.051*일상활동명령어계산값+0.208*일상활동명령어계산값+0.037*통증/불편명령어계산값+0.151*통증/불편명령어계산값+0.043*불안/우울명령어계산값+0.158*불안/우울명령어계산값+0.05*5가지차원명령어계산값<br>
+  * 전국자료: 시군구 중앙값
+statistics_name: >-
+  보건복지부, 「지역사회건강조사」<br>
+  kosis: https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21021E&conn_path=I3<br>
+  질병관리청 > 지역사회건강조사 > 자료실 > 보고서 > 지역건강통계 한눈에 보기
+computation_units: "점"
+computation_coverage: "시군구"
+#data_provision_year: 2008년 ~ 2019년
+data_preparation_year: 2008년 ~ 2019년
+#data_download: "2022년 6월 3일"
+data_generation_cycle: "1년"
+update_cycle: "조사기준년도 익년3월"

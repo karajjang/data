@@ -1,0 +1,19 @@
+computation_definitions: >-
+  <b>영   역</b>: 지속가능성<br>
+  <b>하위영역</b>: 환경
+indicator_name_sub: 인구 천 명당 도시공원조성면적
+indicator_definition: 인구 천 명당 도시공원의 조성면적 비율(미집행면적 제외)
+indicator_importance: 여가생활 측면에서 주민의 정주환경 수준을 가늠할 수 있음
+computation_calculations: >-
+  (총공원면적÷도시지역인구)×1,000<br>
+  * 인구: 행정안전부, 주민등록인구현황
+statistics_name: >-
+  한국토지주택공사(도시계획현황)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21281&conn_path=I3
+computation_units: "천㎡"
+computation_coverage: "시도"
+#data_provision_year: 2008년~2020년
+data_preparation_year: 2008년~2020년
+#data_download: "/ 2022년 7월 1일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

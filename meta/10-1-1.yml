@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 공동생활<br>
+  <b>하위영역</b>: 가족/친밀성
+indicator_name_sub: 공공보육시설 비율
+indicator_definition: 전체 어린이집 중 국공립, 직장, 사회법인 어린이집의 비율
+indicator_importance: 보육의 공공성 강화와 보육서비스의 형평성 제고를 파악할 수 있음
+computation_calculations: (국공립+직장+사회복지법인 어린이집÷전체 어린이집)×100
+statistics_name: >-
+  보건복지부, 「보육통계」<br>
+  https://gsis.kwdi.re.kr/statHtml/statHtml.do?orgId=338&tblId=DT_2CA0211R&conn_path=I3
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: "2009년 ~ 2020년"
+data_preparation_year: "2009년 ~ 2020년"
+#data_download: "2022년 6월 20일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

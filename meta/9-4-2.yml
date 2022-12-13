@@ -1,0 +1,20 @@
+computation_definitions: >-
+  <b>영   역</b>: 개인생활<br>
+  <b>하위영역</b>: 소득/소비
+indicator_name_sub: 소비생활 만족도
+indicator_definition: 19세 이상 인구 중 의식주, 여가와 취미생활 등 전반적인 소비생활에 어느 정도 만족하고 있는지에 대한 비율
+indicator_importance: 전반적인 소비생활에 대한 국민들의 주관적 의식 파악이 가능함
+computation_calculations: >-
+  (“매우 만족”, “약간 만족” 응답자수÷전체 응답자수)×100<br>
+  * 응답자 수: 가구원 가중값 적용
+statistics_name: >-
+  통계청, 「사회조사」<br>
+  (시도 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1SSIC060R&conn_path=I3<br>
+  (수도권 자료 - 사회조사 MD 활용) https://mdis.kostat.go.kr/index.do
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: "1999년, 2003년, 2007년 ~ 2021년(홀수년)"
+data_preparation_year: "2011년 ~ 2021년(홀수년)  * 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대"
+#data_download: "2022년 7월 20일"
+data_generation_cycle: "2년"
+update_cycle: "조사기준년도 11월"
