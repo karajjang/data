@@ -9,7 +9,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -51,7 +51,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -165,7 +165,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -207,7 +207,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -246,7 +246,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -285,7 +285,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -399,7 +399,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -438,7 +438,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -552,7 +552,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -591,7 +591,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -630,7 +630,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -743,7 +743,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -785,7 +785,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -824,7 +824,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -863,7 +863,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -977,7 +977,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1019,7 +1019,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1058,7 +1058,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1097,7 +1097,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1136,7 +1136,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1178,7 +1178,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1292,7 +1292,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1415,7 +1415,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1457,7 +1457,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1571,7 +1571,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1685,7 +1685,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1724,7 +1724,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1841,7 +1841,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1880,7 +1880,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -1994,7 +1994,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2033,7 +2033,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2072,7 +2072,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2186,7 +2186,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2300,7 +2300,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2414,7 +2414,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2453,7 +2453,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2495,7 +2495,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2537,7 +2537,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2579,7 +2579,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2621,7 +2621,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2660,7 +2660,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2699,7 +2699,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2813,7 +2813,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -2927,7 +2927,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3041,7 +3041,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3083,7 +3083,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3122,7 +3122,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3236,7 +3236,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3275,7 +3275,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3314,7 +3314,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3353,7 +3353,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3392,7 +3392,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3434,7 +3434,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3476,7 +3476,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3515,7 +3515,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3554,7 +3554,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3593,7 +3593,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3632,7 +3632,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3746,7 +3746,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3785,7 +3785,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3899,7 +3899,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3941,7 +3941,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -3980,7 +3980,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4019,7 +4019,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4061,7 +4061,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4175,7 +4175,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4292,7 +4292,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4331,7 +4331,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4445,7 +4445,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4487,7 +4487,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4601,7 +4601,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4640,7 +4640,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4682,7 +4682,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4724,7 +4724,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4763,7 +4763,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4802,7 +4802,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4916,7 +4916,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4955,7 +4955,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -4994,7 +4994,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5108,7 +5108,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5147,7 +5147,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5264,7 +5264,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5378,7 +5378,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5417,7 +5417,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5459,7 +5459,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5585,7 +5585,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5624,7 +5624,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5738,7 +5738,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5777,7 +5777,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5828,7 +5828,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5867,7 +5867,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5909,7 +5909,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5948,7 +5948,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -5990,7 +5990,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6029,7 +6029,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6068,7 +6068,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6107,7 +6107,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6221,7 +6221,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6260,7 +6260,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6299,7 +6299,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6338,7 +6338,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6377,7 +6377,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
@@ -6416,7 +6416,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "schema": {
         "fields": [
           {
