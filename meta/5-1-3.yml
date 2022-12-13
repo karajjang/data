@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 재정
+indicator_name_sub: 자산 대비 부채 비율
+indicator_definition: 지방자치단체의 자산 대비 부채가 차지하는 비율로, 부채비율이 낮을수록 재무건전성이 높다고 판단할 수 있음
+indicator_importance: 지역발전의 기초가 되는 지자체의 재무상태와 관련하여 재무건전성을 판단할 수 있는 지표
+computation_calculations: (지자체 부채÷자산)×100
+statistics_name: >-
+  행정안전부(지방재정365)<br>
+  https://lofin.mois.go.kr/websquare/websquare.jsp?w2xPath=/ui/portal/gongsi/item/sd002_tg002.xml&year=2020&ix_code=A008
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: 2012년 ~ 2020년
+data_preparation_year: 2012년 ~ 2020년
+#data_download: "-"
+data_generation_cycle: "1년"
+#update_cycle: "-"

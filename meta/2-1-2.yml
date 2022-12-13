@@ -1,0 +1,15 @@
+computation_definitions: >-
+  <b>영   역</b>: 역량<br>
+  <b>하위영역</b>: 제도적 역량
+indicator_name_sub: 창업기업 증감률
+indicator_definition: 전년도 대비 지역별 창업기업 수의 증감률
+indicator_importance: 정부가 기업의 경제활동에 대한 규제 혹은 지원을 통해 비즈니스를 제약 혹은 촉진하는 정도는 해당 지역의 경쟁을 위한 제도적 기초로서 중요하게 작용함
+computation_calculations: (해당연도 창업기업 수 - 전년도 창업기업수 ) / 전년도 창업기업수 x 100
+statistics_name: 중소벤처기업부, 「창업기업동향」<br>https://kosis.kr/statHtml/statHtml.do?orgId=142&tblId=DT_142N_F204&conn_path=I3
+computation_units: "%"
+computation_coverage: 시도
+#data_provision_year: "2017년 ~ 2021년"
+data_preparation_year: "2017년 ~ 2021년"
+#data_download: "-"
+data_generation_cycle: 매년
+#update_cycle: "-"

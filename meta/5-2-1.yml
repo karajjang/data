@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 주거/교통
+indicator_name_sub: 주거환경 만족도
+indicator_definition: 현 거주 주택 주변의 주거환경에 대해 만족하는 사람의 비율로, 주거에 대한 지역주민의 주관적 평가를 의미함
+indicator_importance: 국민의 주거실태와 추이를 조사, 파악하여 중장기 주택계획 및 부동산 정책에 활용이 가능
+computation_calculations: (“매우 만족”, “대체로 만족” 응답자수÷전체 응답자수)×100"<br>* 응답자수 - 가구원 가중값 적용
+statistics_name: >-
+  국토교통부, 「주거실태조사」<br>
+  http://stat.molit.go.kr/portal/cate/statFileView.do?hRsId=327&hFormId
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: 2006년, 2008년, 2010년, 2012년, 2014년, 2016년~2020년
+data_preparation_year: 2006년, 2008년, 2010년, 2012년, 2014년, 2016년~2020년
+#data_download: "2022년 7월 14일"
+data_generation_cycle: "1년, 2년"
+#update_cycle: "-"

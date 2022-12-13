@@ -1,0 +1,15 @@
+computation_definitions: >-
+  영   역: 번영<br>
+  하위영역: 경제 성장
+indicator_name_sub: 노동생산성
+indicator_definition: 지역 내 총생산을 지역 취업자수로 나눈 1인당 연간 GRDP
+indicator_importance: 생산측면에서 지역의 효율성을 평가할 수 있는 지표이며 노동생산성이 높을수록 지역은 효율적 생산이 가능하여 더 많은 사업들을 지역으로 유인할 것으로 보여 성장을 견인할 가능성이 높음
+computation_calculations: 실질 GRDP ÷ 취업자수
+statistics_name: 통계청 「지역소득」, 「경제활동인구조사」
+computation_units: 백만원
+#computation_coverage: ""
+#data_provision_year: 2015년 ~ 2020년
+data_preparation_year: 2001년 ~ 2020년
+#data_download: "2022년 5월 16일"
+#data_generation_cycle: 매년
+#update_cycle: "-"

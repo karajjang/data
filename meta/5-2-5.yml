@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 주거/교통
+indicator_name_sub: 주택소유 가구 비율
+indicator_definition: 일반가구 대비 주택소유 가구 비율
+indicator_importance: 지역별 주택소유 가구의 특성이 반영되어 세밀한 지역 주택시장 여건을 나타냄
+computation_calculations: (주택소유가구÷총가구(일반가구))×100
+statistics_name: >-
+  통계청(주택소유통계)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1OH0402&conn_path=I2
+computation_units: "%"
+computation_coverage: "2016년 시도, 2016년~ 시군구"
+#data_provision_year: 2016년~2020년
+data_preparation_year: 2016년~2020년
+#data_download: "-"
+data_generation_cycle: "1년"
+update_cycle: "익년 12월"

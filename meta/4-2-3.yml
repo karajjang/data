@@ -1,0 +1,17 @@
+computation_definitions: >-
+  영   역: 매력<br>
+  하위영역: 생활/환경의 지속가능성
+indicator_name_sub: 인구 천 명당 의사 수
+indicator_definition: 해당 지역에서 의료기관에서 의료활동에 종사하는 의사의 수를 계산
+indicator_importance: 건강에 대한 현대인의 높은 관심과 코로나19 등 최근의 상황은 해당 국가나 지역의 매력으로서 보건환경의 중요성을 높이고 있음
+computation_calculations: 의료기관종사의사수 ÷ 주민등록인구 × 1000
+statistics_name: >-
+  국민건강보험공단, 「건강보험통계」  <br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20981&conn_path=I3
+computation_units: 명
+computation_coverage: 시군구
+#data_provision_year: 2015년 ~ 2020년
+data_preparation_year: 2006년 ~ 2020년
+#data_download: "-"
+data_generation_cycle: 매년
+update_cycle: "익년 2월"

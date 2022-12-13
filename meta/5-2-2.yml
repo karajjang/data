@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 주거/교통
+indicator_name_sub: 대중교통 접근성
+indicator_definition: 각종 시설(교육, 의료, 광역교통, 판매)에 대중교통으로 접근한 평균 시간
+indicator_importance: 원활한 교통이동성 및 접근성 확보 수준을 나타내는 지표이며 교통인프라 분석 및 평가에 활용이 가능
+computation_calculations: 시설별 대중교통/도보 접근시간의 평균<br>* 대중교통접근성 - 일평균(06-20시), 대중교통/도보 기준<br>* 수도권 값 - 66개 시군구의 평균<br>* 120분 이상은 120분으로 계산
+statistics_name: >-
+  한국교통연구원<br>
+  https://www.ktdb.go.kr/www/selectTrnsportTreeView.do?key=32
+computation_units: "분"
+computation_coverage: "시군구"
+#data_provision_year: 2016년 ~ 2019년
+data_preparation_year: 2017년 ~ 2019년
+#data_download: "2022년 7월 11일"
+data_generation_cycle: "1년"
+#update_cycle: "-"

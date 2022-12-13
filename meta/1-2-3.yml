@@ -1,0 +1,16 @@
+computation_definitions: >-
+  <b>영   역</b>: 자원<br>
+  <b>하위영역</b>: 물적 자원
+indicator_name_sub: >-
+  가구원당 평균 방수
+indicator_definition: 가구원당 평균 방의 개수
+indicator_importance: 주거의 질을 측정하기 위한 대리지표로, 가구원당 평균 방의 개수가 많을수록 주거 관련 삶의 질이 좋고 지역의 주거인프라가 잘 갖춰져 있음을 의미함
+computation_calculations: 방의갯수 / 가구원수
+statistics_name: 통계청, 「인구총조사」<br>https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE2005&conn_path=I3
+computation_units: 개
+computation_coverage: 시군구
+#data_provision_year: "-"
+data_preparation_year: "2010년, 2015년, 2020년"
+#data_download: "-"
+#data_generation_cycle: "-"
+#update_cycle: "-"

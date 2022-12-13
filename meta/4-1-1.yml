@@ -1,0 +1,17 @@
+computation_definitions: >-
+  영   역: 매력<br>
+  하위영역: 경제적 기회
+indicator_name_sub: 인구 순유입률
+indicator_definition: 인구이동이란 전입(행정 읍면동 경계를 넘어 다른 지역에서 해당 지역으로 이동해 온 경우)과 전출(행정 읍면동 경계를 넘어 해당 지역에서 다른 지역으로 이동해 간 경우)로 나뉨. 이 때 순이동은 전입-전출로써 인구순유입(전입초과)은 전입이 전출보다 많은 경우임
+indicator_importance: 지역별 인구 이동량 및 이동 방향 등을 파악하여 지역간 균형적 국토개발, 교통, 교육, 주택 등의 정책수립을 위한 기초자료 제공 및 지역별 추계인구 작성에 활용
+computation_calculations: 순이동자수 / 주민등록연앙인구 × 100
+statistics_name: >-
+  통계청, 「국내인구이동통계」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26001_A02&conn_path=I3
+computation_units: "%"
+computation_coverage: 시군구
+#data_provision_year: 2015년 ~ 2020년
+data_preparation_year: 2001년 ~ 2021년
+#data_download: "-"
+#data_generation_cycle: 매년
+#update_cycle: "-"

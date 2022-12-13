@@ -1,0 +1,15 @@
+computation_definitions: >-
+  <b>영   역</b>: 역량<br>
+  <b>하위영역</b>: 혁신 역량
+indicator_name_sub: 인구 백만 명당 특허 출원 건수
+indicator_definition: 해당 광역에서 특허 출원을 신청한 건수를 해당 지역의 인구 백만명으로 나누어 산정
+indicator_importance: 광역별로 신기술 혹은 혁신의 결과를 제도적으로 인정받고자 하는 시도로서 해당 지역의 혁신 활동의 활발한 정도를 포괄적으로 나타냄
+computation_calculations: (특허출원건수 / 인구수) x 1,000,000명 <br>* 인구수는 연앙인구
+statistics_name: 특허청,  「지식재산권통계」<br>https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL202109E&conn_path=I3
+computation_units: "건"
+#computation_coverage: ""
+#data_provision_year: "-"
+data_preparation_year: "2001년 ~ 2015년"
+#data_download: "-"
+#data_generation_cycle: "-"
+#update_cycle: "-"

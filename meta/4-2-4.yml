@@ -1,0 +1,19 @@
+computation_definitions: >-
+  영   역: 매력<br>
+  하위영역: 생활/환경의 지속가능성
+indicator_name_sub: 삶의 만족도
+indicator_definition: 13세 이상 인구 중 경제적인 면, 가족관계, 직업, 건강 등을 전반적으로 느끼는 만족감(행복도)에 대한 비율
+indicator_importance: 전반적인 삶의 질을 주관적 웰빙 지표 중 삶의 만족도로 나타내어 해당 지역의 전반적 웰빙의 수준을 나타냄
+computation_calculations: >-
+  (“매우 만족”, “약간 만족” 응답자수÷전체 응답자수)×100<br>
+  * 응답자 수: 가구원 가중값 적용
+statistics_name: >-
+  통계청, 「사회조사」 <br>
+  사회조사 MD 활용(https://mdis.kostat.go.kr/index.do)
+computation_units: "%"
+computation_coverage: 시도
+#data_provision_year: 2011년 ~ 2020년
+data_preparation_year: 2011년 ~ 2021년
+#data_download: "-"
+data_generation_cycle: 1년
+update_cycle: "조사기준 년도 11월"

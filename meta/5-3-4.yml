@@ -1,0 +1,19 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 교육/훈련
+indicator_name_sub: 학교생활 만족도
+indicator_definition: 13세 이상 재학생의 전반적인 학교생활(교육내용, 교육방법, 교우관계 등)에 대해 만족하는 학생들의 비율
+indicator_importance: 해당 지역 교육 안에서 학교생활에 대한 주관적 차원의 ‘교육의 질’을 평가
+computation_calculations: (“매우 만족”, “대체로 만족” 응답자수÷전체 응답자수)×100
+statistics_name: >-
+  통계청, 「사회조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1SSED019R&conn_path=I3
+computation_units: "%"
+computation_coverage: "시도"
+#data_provision_year: 2000년, 2004년, 2008년~2020년(짝수년)
+data_preparation_year: >-
+  2012년~2020년(짝수년)<br>
+  * 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대
+#data_download: "-"
+data_generation_cycle: "2년"
+update_cycle: "조사기준년도 11월"

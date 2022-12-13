@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 재정
+indicator_name_sub: 재정자립도
+indicator_definition: 지방자치단체 스스로 살림을 꾸릴 수 있는 능력을 나타내는 지표로 100%에 가까울수록 재정운영의 자립능력이 우수하다는 것을 의미
+indicator_importance: 지역발전에 필수요소라고 할 수 있는 정부 지원의 기초 재원 확대 정도를 나타내는 지표이며, 재정자립도 수준을 통해 지역 내 사업체와 고용 증가를 예상 가능하기에 고용정책 시 활용이 가능
+computation_calculations: (자체수입÷자치단체 세입결산규모)×100
+statistics_name: >-
+  행정안전부(지방재정365)<br>
+  https://lofin.mois.go.kr/websquare/websquare.jsp?w2xPath=/ui/portal/gongsi/item/sd002_tg002.xml&year=2020&ix_code=A060&reOrg=after
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: 2012년 ~ 2020년
+data_preparation_year: 2012년 ~ 2020년
+#data_download: "-"
+data_generation_cycle: "1년"
+#update_cycle: "-"

@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 인구/건강
+indicator_name_sub: 인구 증가율
+indicator_definition: 자연증가율과 사회적증가율의 합으로 전년대비 인구변화율 및 특정시점에서 비교되는 시점까지의 증가율
+indicator_importance: 국가와 지역의 변화 지표로 가장 빈번이 사용되는 지표 중 하나로 인구수준과 지역발전방향을 예측하는데 사용이 가능
+computation_calculations: >-
+  ((당해년 총인구-전년 총인구)÷전년 총인구)×100<br>* 인구: 행정안전부, 주민등록인구현황(외국인 포함)
+statistics_name: >-
+  행정안전부(주민등록인구현황), 법무부(체류외국인통계)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20621&conn_path=I3
+computation_units: "%"
+computation_coverage: "시군구"
+#data_provision_year: 2000년 ~ 2021년
+data_preparation_year: 2001년 ~ 2020년 
+#data_download: "-"
+data_generation_cycle: "1년"
+#update_cycle: "-"

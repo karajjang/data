@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 교육/훈련
+indicator_name_sub: 교원당 학생 수
+indicator_definition: 1명의 교원이 담당하는 학생 수
+indicator_importance: 수치가 낮을수록 상대적으로 교육여건이 좋은 것으로 판단이 가능함, 해당 지역 교육여건에 대한 평가지표로 널리 사용 되며, 본 지표를 통해 교육여건의 상대적 우위정도를 판단함
+computation_calculations: 재적학생수÷교원수
+statistics_name: >-
+  한국교육개발원(교육기본통계)<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21171&conn_path=I3
+computation_units: "명"
+computation_coverage: "시군구"
+#data_provision_year: 2007년~2021년
+data_preparation_year: 2007년~2021년
+#data_download: "-"
+data_generation_cycle: "1년"
+#update_cycle: "-"

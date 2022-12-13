@@ -1,0 +1,17 @@
+computation_definitions: >-
+  <b>영   역</b>: 기초역량과 여건<br>
+  <b>하위영역</b>: 인구/건강
+indicator_name_sub: 인구 백만 명당 응급의료기관 수
+indicator_definition: 인구 대비 중앙응급의료센터, 구역 응급의료센터, 전문응급의료센터, 지역응급의료센터 및 지역응급의료기관 수
+indicator_importance: 응급의료의 질적 수준을 알 수 있음
+computation_calculations: (응급의료기관 수÷전체 인구 수)×1,000,000
+statistics_name: >-
+  국립중앙의료원(응급의료통계연보)<br>
+  https://www.e-gen.or.kr/nemc/statistics_annual_report.do
+computation_units: "개수"
+computation_coverage: "시도"
+#data_provision_year: 2002년~2020년
+data_preparation_year: 2002년~2020년
+#data_download: "-"
+data_generation_cycle: "1년"
+update_cycle: "익년 9월"

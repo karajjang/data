@@ -1,0 +1,15 @@
+computation_definitions: >-
+  <b>영   역</b>: 자원<br>
+  <b>하위영역</b>: 물적 자원
+indicator_name_sub: 국토계수당 도로연장
+indicator_definition: 도로연장이란 도로의 총길이를 나타내는 것으로 고속국도, 일반국도, 특별·광역시도, 지방도, 시·군·구도의 연장을 말함
+indicator_importance: 도로연장이란 도로의 총길이를 나타내는 것으로 고속국도, 일반국도, 특별·광역시도, 지방도, 시·군·구도의 연장을 말함
+computation_calculations: 도로연장(㎞) / (지역면적1,000(㎢)*인구(천명))½
+statistics_name: 국토교통부, 「도로현황」<br>https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_966&conn_path=I3
+computation_units: "km/(면적*인구)½"
+computation_coverage: 시도
+#data_provision_year: 2005년~2021년
+data_preparation_year: 2005년~2021년
+#data_download: "-"
+#data_generation_cycle: "-"
+#update_cycle: "-"

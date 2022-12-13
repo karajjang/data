@@ -1,0 +1,18 @@
+computation_definitions: >-
+  <b>영   역</b>: 자원<br>
+  <b>하위영역</b>: 물적 자원
+indicator_name_sub: 인터넷 이용률
+indicator_definition: 만 3세 이상 인구 중 최근 1개월 내 인터넷을 이용한 적이 있는 사람의 비율
+indicator_importance: 우리나라의 인터넷 利用者 규모(인터넷 이용자수 및 이용률)를 파악하여 인터넷 관련 정책 및 비즈니스 전략 수립, 연구활동 등의 기초자료로 제공되고 있으며, ITU, OECD 등 국제기구의
+ 방송통신 관련 국제지수 산출을 위한 주요 평가항목으로 널리 활용됨
+computation_calculations: (최근 1개월 내 인터넷을 이용한 적이 있다고 응답한 응답자÷전체 응답자)×100
+statistics_name: >-
+  과학기술정보통신부 「인터넷이용실태조사」<br>
+  미디어통계포털(stat.kisdi.re.kr) > 한국미디어패널조사 > 원시자료/유저가이드 
+computation_units: "%"
+computation_coverage: 시도
+#data_provision_year: 2015년 ~ 2020년
+data_preparation_year: 2015년 ~ 2020년
+#data_download: "-"
+data_generation_cycle: 매년
+#update_cycle: "-"

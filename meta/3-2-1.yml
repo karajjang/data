@@ -1,0 +1,17 @@
+computation_definitions: >-
+  영   역: 번영<br>
+  하위영역: 생활 수준
+indicator_name_sub: 고용률
+indicator_definition: 지역별 만 15세 이상 생산가능인구 중 취업자가 차지하는 비율
+indicator_importance: 얼마나 많은 사람이 실제로 취업하고 있는지를 가장 간명하게 나타내는 지표로서 노동시장의 현황을 핵심적으로 보여줌. 예전에는 고용 관련 지표로 경제활동참가율을 주로 사용하였으나 실업자와 비경제활동인구의 구분이 분명하지 않아 최근에는 고용률을 많이 사용하고 있는 추세
+computation_calculations: (취업자수÷15세 이상 인구) × 100
+statistics_name: >-
+  통계청, 「경제활동인구조사」<br>
+  https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7004S&conn_path=I3
+computation_units: "%"
+computation_coverage: 시도
+#data_provision_year: 2015년 ~ 2020년
+data_preparation_year: 2001년 ~ 2021년
+#data_download: "-"
+data_generation_cycle: 분기, 매년
+#update_cycle: "-"
