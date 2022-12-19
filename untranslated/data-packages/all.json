@@ -5068,7 +5068,7 @@
           }
         ]
       },
-      "title": "global_indicators.1-1-2-title"
+      "title": "1-1-2"
     },
     {
       "path": "11-2-2/data.csv",
@@ -6160,7 +6160,7 @@
           }
         ]
       },
-      "title": "1-1-1"
+      "title": "global_indicators.1-1-2-title"
     }
   ]
 }
