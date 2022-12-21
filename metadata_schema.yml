@@ -567,12 +567,12 @@ prose:
             translation_key: metadata_fields.OTHER_DOC
             scope: national
       ######### Last updated dates #########
-      - name: "national_data_update_url"
-        field:
-            element: hidden
-            label: "Data last updated"
-            translation_key: metadata_fields.national_data_update_url
-            scope: national
+#      - name: "national_data_update_url"
+#        field:
+#            element: hidden
+#            label: "Data last updated"
+#            translation_key: metadata_fields.national_data_update_url
+#            scope: national
 #      - name: "national_data_update_url_text"
 #        field:
 #            element: hidden
