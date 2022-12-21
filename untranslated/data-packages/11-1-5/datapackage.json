@@ -11,20 +11,18 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
+            "name": "Year",
+            "type": "number"
           },
           {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
+            "name": "Value",
+            "type": "number"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "12-1-1",
-  "title": "인구 천 명당 범죄 발생 건수"
+  "name": "11-1-5",
+  "title": "global_indicators.11-1-5-title"
 }
