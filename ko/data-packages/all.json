@@ -2589,6 +2589,45 @@
       "title": "GRDP 중 연구개발비 지출 비중"
     },
     {
+      "path": "11-2-4-1/data.csv",
+      "name": "11-2-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도"
+              ]
+            },
+            "title": "시도"
+          }
+        ]
+      },
+      "title": "11-2-4-1"
+    },
+    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -3090,45 +3129,6 @@
         ]
       },
       "title": "주택당 평균 거주인 수"
-    },
-    {
-      "path": "11-2-4/data.csv",
-      "name": "11-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8-sig",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도"
-              ]
-            },
-            "title": "시도"
-          }
-        ]
-      },
-      "title": "11-2-4"
     },
     {
       "path": "9-2-5/data.csv",
@@ -6441,30 +6441,6 @@
         ]
       },
       "title": "인구 천 명당 의사 수"
-    },
-    {
-      "path": "11-2-4-1/data.csv",
-      "name": "11-2-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8-sig",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "11-2-4-1"
     },
     {
       "path": "11-2-5-1/data.csv",
