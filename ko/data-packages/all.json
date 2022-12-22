@@ -6465,6 +6465,30 @@
         ]
       },
       "title": "11-2-3-1"
+    },
+    {
+      "path": "11-2-4-1/data.csv",
+      "name": "11-2-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "11-2-4-1"
     }
   ]
 }
