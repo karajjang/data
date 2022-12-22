@@ -2667,6 +2667,48 @@
       "title": "근로여건만족도"
     },
     {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권"
+              ]
+            },
+            "title": "지역"
+          }
+        ]
+      },
+      "title": "고등교육이수자 비율"
+    },
+    {
       "path": "7-1-2/data.csv",
       "name": "7-1-2",
       "profile": "tabular-data-resource",
@@ -6438,30 +6480,6 @@
         ]
       },
       "title": "인구 천 명당 의사 수"
-    },
-    {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8-sig",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "고등교육이수자 비율"
     }
   ]
 }
