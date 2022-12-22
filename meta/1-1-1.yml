@@ -7,7 +7,7 @@ indicator_importance: 국민 가운데 대학을 졸업한 인구가 많다는 �
 computation_calculations: (대졸이상경제활동인구수/전체 경제활동인구수) x 100
 statistics_name: >-
   통계청, 경제활동인구조사<br>
-  <a href ="https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7016S&conn_path=I3">https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7016S&conn_path=I3</a>
+  <a href ="https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7016S&conn_path=I3" target="_blank">https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7016S&conn_path=I3</a>
 computation_units: "%"
 computation_coverage: 시도
 #data_provision_year: 2001년 ~ 2021년
