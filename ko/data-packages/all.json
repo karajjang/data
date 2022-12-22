@@ -3674,45 +3674,6 @@
       "title": "기부율"
     },
     {
-      "path": "11-2-3/data.csv",
-      "name": "11-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8-sig",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도"
-              ]
-            },
-            "title": "시도"
-          }
-        ]
-      },
-      "title": "11-2-3"
-    },
-    {
       "path": "2-1-2/data.csv",
       "name": "2-1-2",
       "profile": "tabular-data-resource",
@@ -5825,6 +5786,45 @@
       "title": "인구 천 명당 범죄 발생 건수"
     },
     {
+      "path": "11-2-3-1/data.csv",
+      "name": "11-2-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도"
+              ]
+            },
+            "title": "시도"
+          }
+        ]
+      },
+      "title": "11-2-3-1"
+    },
+    {
       "path": "9-1-6/data.csv",
       "name": "9-1-6",
       "profile": "tabular-data-resource",
@@ -6441,30 +6441,6 @@
         ]
       },
       "title": "인구 천 명당 의사 수"
-    },
-    {
-      "path": "11-2-3-1/data.csv",
-      "name": "11-2-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8-sig",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "11-2-3-1"
     },
     {
       "path": "11-2-4-1/data.csv",
