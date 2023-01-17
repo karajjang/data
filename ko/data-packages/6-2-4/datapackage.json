@@ -7,14 +7,9 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8-sig",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
           {
             "name": "Year",
             "type": "integer",
@@ -25,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "사업체수",
-                "종사자수"
+                "종사자수",
+                ""
               ]
             },
             "title": "구분"
@@ -37,15 +32,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "0.전국",
                 "1.수도권",
                 "2.서울특별시",
                 "3.인천광역시",
-                "4.경기도"
+                "4.경기도",
+                ""
               ]
             },
             "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

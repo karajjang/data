@@ -51,21 +51,47 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
             </style>
         </head>
         <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">SDG data build documentation</a>
                 </div>
             </nav>
-            <main role="main">
+            <main id="main-content" role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Open SDG output</h1>
                     <div>
                         <p>This output includes a variety of endpoints designed to
         support the <a href="https://open-sdg.readthedocs.io">Open SDG</a>
-        platform. Examples are below:<p><h2>Headlines</h2><p>CSV/JSON files containing "headline" (aggregated only) data for indicators</p><ul><li><a href="ko/headline/2-2-3.csv">ko/headline/2-2-3.csv</a></li><li><a href="ko/headline/2-2-3.json">ko/headline/2-2-3.json</a></li><li><a href="ko/headline/6-3-1.csv">ko/headline/6-3-1.csv</a></li><li><a href="ko/headline/6-3-1.json">ko/headline/6-3-1.json</a></li><li>etc...</li></ul><h2>Data</h2><p>CSV/JSON files containing fully disaggregated data for indicators</p><ul><li><a href="ko/data/2-2-3.csv">ko/data/2-2-3.csv</a></li><li><a href="ko/data/2-2-3.json">ko/data/2-2-3.json</a></li><li><a href="ko/data/6-3-1.csv">ko/data/6-3-1.csv</a></li><li><a href="ko/data/6-3-1.json">ko/data/6-3-1.json</a></li><li>etc...</li></ul><h2>Edges</h2><p>CSV/JSON files containing "edges" (relationships between disaggregations) data for indicators</p><ul><li><a href="ko/edges/2-2-3.csv">ko/edges/2-2-3.csv</a></li><li><a href="ko/edges/2-2-3.json">ko/edges/2-2-3.json</a></li><li><a href="ko/edges/6-3-1.csv">ko/edges/6-3-1.csv</a></li><li><a href="ko/edges/6-3-1.json">ko/edges/6-3-1.json</a></li><li>etc...</li></ul><h2>Combined edges and data</h2><p>JSON files containing both the fully-disaggregated and "edges" data mentioned above</p><ul><li><a href="ko/comb/2-2-3.json">ko/comb/2-2-3.json</a></li><li><a href="ko/comb/6-3-1.json">ko/comb/6-3-1.json</a></li><li>etc...</li></ul><h2>Metadata</h2><p>JSON files containing metadata for the indicators</p><ul><li><a href="ko/meta/2-2-3.json">ko/meta/2-2-3.json</a></li><li><a href="ko/meta/6-3-1.json">ko/meta/6-3-1.json</a></li><li>etc...</li></ul><h2>Zip file of CSV data</h2><p>Zip files containing all indicators in CSV form</p><ul><li><a href="ko/zip/all_indicators.zip">ko/zip/all_indicators.zip</a></li></ul><h2>Zip file information</h2><p>JSON file containing information about the above-mentioned zip files</p><ul><li><a href="ko/zip/all_indicators.json">ko/zip/all_indicators.json</a></li></ul><h2>Reporting status</h2><p>JSON file containing information about the reporting status of the indicators</p><ul><li><a href="ko/stats/reporting.json">ko/stats/reporting.json</a></li></ul><h2>Translations</h2><p>JSON file containing all the translations used in the platform</p><ul><li><a href="ko/translations/translations.json">ko/translations/translations.json</a></li></ul>
+        platform. Examples are below:<p><h2>Headlines</h2><p>CSV/JSON files containing "headline" (aggregated only) data for indicators</p><ul><li><a href="ko/headline/7-1-2.csv">ko/headline/7-1-2.csv</a></li><li><a href="ko/headline/7-1-2.json">ko/headline/7-1-2.json</a></li><li><a href="ko/headline/6-3-3.csv">ko/headline/6-3-3.csv</a></li><li><a href="ko/headline/6-3-3.json">ko/headline/6-3-3.json</a></li><li>etc...</li></ul><h2>Data</h2><p>CSV/JSON files containing fully disaggregated data for indicators</p><ul><li><a href="ko/data/7-1-2.csv">ko/data/7-1-2.csv</a></li><li><a href="ko/data/7-1-2.json">ko/data/7-1-2.json</a></li><li><a href="ko/data/6-3-3.csv">ko/data/6-3-3.csv</a></li><li><a href="ko/data/6-3-3.json">ko/data/6-3-3.json</a></li><li>etc...</li></ul><h2>Edges</h2><p>CSV/JSON files containing "edges" (relationships between disaggregations) data for indicators</p><ul><li><a href="ko/edges/7-1-2.csv">ko/edges/7-1-2.csv</a></li><li><a href="ko/edges/7-1-2.json">ko/edges/7-1-2.json</a></li><li><a href="ko/edges/6-3-3.csv">ko/edges/6-3-3.csv</a></li><li><a href="ko/edges/6-3-3.json">ko/edges/6-3-3.json</a></li><li>etc...</li></ul><h2>Combined edges and data</h2><p>JSON files containing both the fully-disaggregated and "edges" data mentioned above</p><ul><li><a href="ko/comb/7-1-2.json">ko/comb/7-1-2.json</a></li><li><a href="ko/comb/6-3-3.json">ko/comb/6-3-3.json</a></li><li>etc...</li></ul><h2>Metadata</h2><p>JSON files containing metadata for the indicators</p><ul><li><a href="ko/meta/7-1-2.json">ko/meta/7-1-2.json</a></li><li><a href="ko/meta/6-3-3.json">ko/meta/6-3-3.json</a></li><li>etc...</li></ul><h2>Zip file of CSV data</h2><p>Zip files containing all indicators in CSV form</p><ul><li><a href="ko/zip/all_indicators.zip">ko/zip/all_indicators.zip</a></li></ul><h2>Zip file information</h2><p>JSON file containing information about the above-mentioned zip files</p><ul><li><a href="ko/zip/all_indicators.json">ko/zip/all_indicators.json</a></li></ul><h2>Reporting status</h2><p>JSON file containing information about the reporting status of the indicators</p><ul><li><a href="ko/stats/reporting.json">ko/stats/reporting.json</a></li></ul><h2>Translations</h2><p>JSON file containing all the translations used in the platform</p><ul><li><a href="ko/translations/translations.json">ko/translations/translations.json</a></li></ul>
                     </div>
                 </div>
             </div>

@@ -51,15 +51,41 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
             </style>
         </head>
         <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">SDG data build documentation</a>
                 </div>
             </nav>
-            <main role="main">
+            <main id="main-content" role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Disaggregation: 시도</h1>
                     <div>
@@ -76,7 +102,7 @@
             
         <div class="my-3">
             <a href="values--disaggregation--시도.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--시도">Download CSV of values used in this disaggregation</a>
-            <div id="values--disaggregation--시도" class="download-info">Size: 177 Bytes</div>
+            <div id="values--disaggregation--시도" class="download-info">Size: 174 Bytes</div>
         </div>
         
             
@@ -93,12 +119,12 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="disaggregation-value--0전국_.html">0.전국</a></td>
+      <td><a href="disaggregation-value--0전국.html">0.전국</a></td>
       <td>77</td>
       <td>76</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--1수도권_.html">1.수도권</a></td>
+      <td><a href="disaggregation-value--1수도권.html">1.수도권</a></td>
       <td>77</td>
       <td>76</td>
     </tr>
@@ -122,7 +148,7 @@
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--0\uc804\uad6d_.html\">0.\uc804\uad6d<\/a>","Disaggregation combinations using this value":77,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--1\uc218\ub3c4\uad8c_.html\">1.\uc218\ub3c4\uad8c<\/a>","Disaggregation combinations using this value":77,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--2\uc11c\uc6b8\ud2b9\ubcc4\uc2dc.html\">2.\uc11c\uc6b8\ud2b9\ubcc4\uc2dc<\/a>","Disaggregation combinations using this value":805,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--3\uc778\ucc9c\uad11\uc5ed\uc2dc.html\">3.\uc778\ucc9c\uad11\uc5ed\uc2dc<\/a>","Disaggregation combinations using this value":369,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--4\uacbd\uae30\ub3c4.html\">4.\uacbd\uae30\ub3c4<\/a>","Disaggregation combinations using this value":979,"Number of indicators":76}];
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--0\uc804\uad6d.html\">0.\uc804\uad6d<\/a>","Disaggregation combinations using this value":77,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--1\uc218\ub3c4\uad8c.html\">1.\uc218\ub3c4\uad8c<\/a>","Disaggregation combinations using this value":77,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--2\uc11c\uc6b8\ud2b9\ubcc4\uc2dc.html\">2.\uc11c\uc6b8\ud2b9\ubcc4\uc2dc<\/a>","Disaggregation combinations using this value":805,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--3\uc778\ucc9c\uad11\uc5ed\uc2dc.html\">3.\uc778\ucc9c\uad11\uc5ed\uc2dc<\/a>","Disaggregation combinations using this value":369,"Number of indicators":76},{"Value":"<a href=\"disaggregation-value--4\uacbd\uae30\ub3c4.html\">4.\uacbd\uae30\ub3c4<\/a>","Disaggregation combinations using this value":979,"Number of indicators":76}];
             </script>
             
         </div>
@@ -131,7 +157,7 @@
             
         <div class="my-3">
             <a href="indicators--disaggregation--시도.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--시도">Download CSV of indicators using this disaggregation</a>
-            <div id="indicators--disaggregation--시도" class="download-info">Size: 559 Bytes</div>
+            <div id="indicators--disaggregation--시도" class="download-info">Size: 556 Bytes</div>
         </div>
         
             
