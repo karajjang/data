@@ -3,8 +3,8 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "6-2-3/data.csv",
-      "name": "6-2-3",
+      "path": "9-2-1/data.csv",
+      "name": "9-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -39,11 +39,11 @@
           }
         ]
       },
-      "title": "근로시간"
+      "title": "학교생활 만족도"
     },
     {
-      "path": "9-6-3/data.csv",
-      "name": "9-6-3",
+      "path": "5-4-6/data.csv",
+      "name": "5-4-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -153,7 +153,1918 @@
           }
         ]
       },
-      "title": "자가 보유율"
+      "title": "인구 부양비"
+    },
+    {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1인당 생활폐기물 배출량"
+    },
+    {
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "가구당 연평균 경상소득"
+    },
+    {
+      "path": "9-1-1/data.csv",
+      "name": "9-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "건강관련 삶의 질(EQ-5D)"
+    },
+    {
+      "path": "9-2-5/data.csv",
+      "name": "9-2-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1인당 사교육비"
+    },
+    {
+      "path": "9-1-5/data.csv",
+      "name": "9-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "주관적 건강수준"
+    },
+    {
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "공공기관 청렴도"
+    },
+    {
+      "path": "9-6-1/data.csv",
+      "name": "9-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "주거환경 만족도"
+    },
+    {
+      "path": "10-1-3/data.csv",
+      "name": "10-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1인 가구 비율"
+    },
+    {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "기초생활보장 수급자 수"
+    },
+    {
+      "path": "9-6-2/data.csv",
+      "name": "9-6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "PIR"
+    },
+    {
+      "path": "9-4-2/data.csv",
+      "name": "9-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "소비생활 만족도"
+    },
+    {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고등교육이수자 비율1"
+    },
+    {
+      "path": "5-3-3/data.csv",
+      "name": "5-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "학교 교육의 효과"
+    },
+    {
+      "path": "2-2-2/data.csv",
+      "name": "2-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "GRDP 중 연구개발비 지출 비중"
+    },
+    {
+      "path": "9-5-1/data.csv",
+      "name": "9-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "여가활용 만족도"
+    },
+    {
+      "path": "9-3-2/data.csv",
+      "name": "9-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "근로여건만족도"
+    },
+    {
+      "path": "9-3-5/data.csv",
+      "name": "9-3-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "실업률"
+    },
+    {
+      "path": "5-4-5/data.csv",
+      "name": "5-4-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "건강관련 삶의 질(EQ-5D)"
+    },
+    {
+      "path": "5-2-3/data.csv",
+      "name": "5-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "통근 시간"
+    },
+    {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "지역 내 실질 총생산(GRDP)"
+    },
+    {
+      "path": "4-2-4/data.csv",
+      "name": "4-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "삶의 만족도"
+    },
+    {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "창업기업 증감률"
+    },
+    {
+      "path": "7-1-4/data.csv",
+      "name": "7-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "최종에너지 소비량"
+    },
+    {
+      "path": "9-2-4/data.csv",
+      "name": "9-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "학교교육의 효과"
+    },
+    {
+      "path": "4-2-2/data.csv",
+      "name": "4-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "초미세먼지 대기오염도"
+    },
+    {
+      "path": "8-1-1/data.csv",
+      "name": "8-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "삶의 만족도"
+    },
+    {
+      "path": "5-4-3/data.csv",
+      "name": "5-4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고령인구 비율"
+    },
+    {
+      "path": "11-1-2/data.csv",
+      "name": "11-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "녹지환경 만족도"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고용률"
+    },
+    {
+      "path": "9-4-1/data.csv",
+      "name": "9-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "가구당 연평균 경상소득"
+    },
+    {
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "합계출산율"
     },
     {
       "path": "5-1-3/data.csv",
@@ -273,86 +2184,8 @@
       "title": "자산 대비 부채 비율"
     },
     {
-      "path": "6-1-3/data.csv",
-      "name": "6-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "창업기업 수"
-    },
-    {
-      "path": "9-4-1/data.csv",
-      "name": "9-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "가구당 연평균 경상소득"
-    },
-    {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
+      "path": "9-5-3/data.csv",
+      "name": "9-5-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -462,11 +2295,50 @@
           }
         ]
       },
-      "title": "1인당 생활폐기물 배출량"
+      "title": "인구 십만 명당 문화기반시설 수"
     },
     {
-      "path": "7-1-2/data.csv",
-      "name": "7-1-2",
+      "path": "10-2-4/data.csv",
+      "name": "10-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "사회단체 참여율"
+    },
+    {
+      "path": "5-1-2/data.csv",
+      "name": "5-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -499,6 +2371,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "* 서울 본청",
                 "강남구",
                 "강동구",
                 "강북구",
@@ -524,6 +2397,7 @@
                 "종로구",
                 "중구",
                 "중랑구",
+                "* 인천 본청",
                 "강화군",
                 "계양구",
                 "남동구",
@@ -532,6 +2406,8 @@
                 "부평구",
                 "서구",
                 "연수구",
+                "옹진군",
+                "* 경기 본청",
                 "가평군",
                 "고양시",
                 "과천시",
@@ -570,139 +2446,16 @@
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "초미세먼지 대기오염도"
-    },
-    {
-      "path": "9-6-6/data.csv",
-      "name": "9-6-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
             "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "구분",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "주택-전세",
-                "주택-월세",
-                "아파트-전세",
-                "아파트-월세",
-                ""
-              ]
-            },
-            "title": "구분"
-          },
-          {
-            "name": "A. 시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "A. 시도"
-          },
-          {
-            "name": "B. 시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "여주시",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "B. 시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "월세/전세 가격지수"
+      "title": "주민 1인당 자체 수입액"
     },
     {
-      "path": "5-4-3/data.csv",
-      "name": "5-4-3",
+      "path": "9-1-3/data.csv",
+      "name": "9-1-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -812,50 +2565,11 @@
           }
         ]
       },
-      "title": "고령인구 비율"
+      "title": "인구 천 명당 의사 수"
     },
     {
-      "path": "9-6-5/data.csv",
-      "name": "9-6-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "공공임대주택 수"
-    },
-    {
-      "path": "9-3-3/data.csv",
-      "name": "9-3-3",
+      "path": "6-2-2/data.csv",
+      "name": "6-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -890,394 +2604,7 @@
           }
         ]
       },
-      "title": "고용률"
-    },
-    {
-      "path": "5-4-6/data.csv",
-      "name": "5-4-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 부양비"
-    },
-    {
-      "path": "4-2-1/data.csv",
-      "name": "4-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주거환경 만족도"
-    },
-    {
-      "path": "10-1-2/data.csv",
-      "name": "10-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "가족관계 만족도"
-    },
-    {
-      "path": "9-1-6/data.csv",
-      "name": "9-1-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "비만 유병률"
-    },
-    {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주거환경 만족도"
-    },
-    {
-      "path": "6-1-2/data.csv",
-      "name": "6-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "GRDP 중 연구개발비 지출 비중"
+      "title": "근로여건만족도"
     },
     {
       "path": "9-2-2/data.csv",
@@ -1394,50 +2721,8 @@
       "title": "학급당 학생 수"
     },
     {
-      "path": "4-2-2/data.csv",
-      "name": "4-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "초미세먼지 대기오염도"
-    },
-    {
-      "path": "5-3-2/data.csv",
-      "name": "5-3-2",
+      "path": "9-6-4/data.csv",
+      "name": "9-6-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1547,11 +2832,11 @@
           }
         ]
       },
-      "title": "교원당 학생 수"
+      "title": "주택당 평균 거주인 수"
     },
     {
-      "path": "9-2-4/data.csv",
-      "name": "9-2-4",
+      "path": "10-1-2/data.csv",
+      "name": "10-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1586,245 +2871,11 @@
           }
         ]
       },
-      "title": "학교교육의 효과"
+      "title": "가족관계 만족도"
     },
     {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "* 서울 본청",
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "* 인천 본청",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "* 경기 본청",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "재정자립도"
-    },
-    {
-      "path": "9-3-5/data.csv",
-      "name": "9-3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "실업률"
-    },
-    {
-      "path": "5-4-4/data.csv",
-      "name": "5-4-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 백만 명당 응급의료기관 수"
-    },
-    {
-      "path": "5-3-1/data.csv",
-      "name": "5-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "고등교육이수자 비율"
-    },
-    {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
+      "path": "11-1-3/data.csv",
+      "name": "11-1-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1934,235 +2985,7 @@
           }
         ]
       },
-      "title": "합계출산율"
-    },
-    {
-      "path": "9-1-1/data.csv",
-      "name": "9-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "건강관련 삶의 질(EQ-5D)"
-    },
-    {
-      "path": "5-2-5/data.csv",
-      "name": "5-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주택 소유 가구 비율"
+      "title": "일반폐기물 재활용률"
     },
     {
       "path": "10-2-3/data.csv",
@@ -2202,6 +3025,158 @@
         ]
       },
       "title": "기부율"
+    },
+    {
+      "path": "7-1-2/data.csv",
+      "name": "7-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "초미세먼지 대기오염도"
+    },
+    {
+      "path": "9-3-1/data.csv",
+      "name": "9-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "월평균 임금"
     },
     {
       "path": "6-2-4/data.csv",
@@ -2255,167 +3230,8 @@
       "title": "사업체 수 및 종사자 수"
     },
     {
-      "path": "9-5-1/data.csv",
-      "name": "9-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "여가활용 만족도"
-    },
-    {
-      "path": "6-2-1/data.csv",
-      "name": "6-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "고용률"
-    },
-    {
-      "path": "9-2-3/data.csv",
-      "name": "9-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "고등교육이수자 비율"
-    },
-    {
-      "path": "4-2-3/data.csv",
-      "name": "4-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 천 명당 의사 수"
-    },
-    {
-      "path": "10-1-6/data.csv",
-      "name": "10-1-6",
+      "path": "5-4-2/data.csv",
+      "name": "5-4-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2525,125 +3341,11 @@
           }
         ]
       },
-      "title": "독거노인 비율"
+      "title": "인구 증가율"
     },
     {
-      "path": "5-4-5/data.csv",
-      "name": "5-4-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "건강관련 삶의 질(EQ-5D)"
-    },
-    {
-      "path": "9-6-2/data.csv",
-      "name": "9-6-2",
+      "path": "11-1-5/data.csv",
+      "name": "11-1-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2678,11 +3380,11 @@
           }
         ]
       },
-      "title": "PIR"
+      "title": "인구 천 명당 범죄 발생 건수"
     },
     {
-      "path": "9-3-4/data.csv",
-      "name": "9-3-4",
+      "path": "6-1-3/data.csv",
+      "name": "6-1-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2712,51 +3414,12 @@
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "근로시간"
-    },
-    {
-      "path": "9-4-3/data.csv",
-      "name": "9-4-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
             "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "주관적 소득수준"
+      "title": "창업기업 수"
     },
     {
       "path": "6-3-3/data.csv",
@@ -2912,8 +3575,86 @@
       "title": "인구 십만 명당 자살률"
     },
     {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
+      "path": "5-2-4/data.csv",
+      "name": "5-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "PIR"
+    },
+    {
+      "path": "6-2-1/data.csv",
+      "name": "6-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고용률"
+    },
+    {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2951,7 +3692,7 @@
           }
         ]
       },
-      "title": "인구 순유입률"
+      "title": "국토계수당 도로연장"
     },
     {
       "path": "11-1-4/data.csv",
@@ -2993,8 +3734,8 @@
       "title": "재생에너지 비율"
     },
     {
-      "path": "2-2-3/data.csv",
-      "name": "2-2-3",
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3032,11 +3773,11 @@
           }
         ]
       },
-      "title": "지식집약 서비스 활동 근로자 비율"
+      "title": "인구 백만 명당 특허 출원 건수"
     },
     {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3071,11 +3812,50 @@
           }
         ]
       },
-      "title": "GRDP 증가율"
+      "title": "주거환경 만족도"
     },
     {
-      "path": "9-2-5/data.csv",
-      "name": "9-2-5",
+      "path": "5-2-6/data.csv",
+      "name": "5-2-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "공공임대주택 수"
+    },
+    {
+      "path": "9-4-3/data.csv",
+      "name": "9-4-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3110,11 +3890,11 @@
           }
         ]
       },
-      "title": "1인당 사교육비"
+      "title": "주관적 소득수준"
     },
     {
-      "path": "11-1-3/data.csv",
-      "name": "11-1-3",
+      "path": "5-2-2/data.csv",
+      "name": "5-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3224,11 +4004,92 @@
           }
         ]
       },
-      "title": "일반폐기물 재활용률"
+      "title": "대중교통 접근성"
     },
     {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
+      "path": "2-2-3/data.csv",
+      "name": "2-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "지식집약 서비스 활동 근로자 비율"
+    },
+    {
+      "path": "6-3-1/data.csv",
+      "name": "6-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "월평균 임금"
+    },
+    {
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3336,94 +4197,16 @@
           },
           {
             "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주민 1인당 자체 수입액"
-    },
-    {
-      "path": "5-2-4/data.csv",
-      "name": "5-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
             "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "PIR"
+      "title": "재정자립도"
     },
     {
-      "path": "9-3-1/data.csv",
-      "name": "9-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "월평균 임금"
-    },
-    {
-      "path": "10-1-4/data.csv",
-      "name": "10-1-4",
+      "path": "5-2-5/data.csv",
+      "name": "5-2-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3533,11 +4316,11 @@
           }
         ]
       },
-      "title": "유아 천 명당 보육시설 수"
+      "title": "주택 소유 가구 비율"
     },
     {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3575,166 +4358,7 @@
           }
         ]
       },
-      "title": "지역 내 실질 총생산(GRDP)"
-    },
-    {
-      "path": "8-1-1/data.csv",
-      "name": "8-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "삶의 만족도"
-    },
-    {
-      "path": "6-3-1/data.csv",
-      "name": "6-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "월평균 임금"
-    },
-    {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "고용률"
-    },
-    {
-      "path": "7-1-3/data.csv",
-      "name": "7-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "신재생에너지 보급률"
+      "title": "GRDP 전년 대비 증가율"
     },
     {
       "path": "10-1-5/data.csv",
@@ -3863,6 +4487,1227 @@
       "title": "조혼인율/조이혼율"
     },
     {
+      "path": "9-1-6/data.csv",
+      "name": "9-1-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "비만 유병률"
+    },
+    {
+      "path": "4-2-1/data.csv",
+      "name": "4-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "주거환경 만족도"
+    },
+    {
+      "path": "5-3-2/data.csv",
+      "name": "5-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "교원당 학생 수"
+    },
+    {
+      "path": "4-2-3/data.csv",
+      "name": "4-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "인구 천 명당 의사 수"
+    },
+    {
+      "path": "7-1-3/data.csv",
+      "name": "7-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "신재생에너지 보급률"
+    },
+    {
+      "path": "4-1-2/data.csv",
+      "name": "4-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "유학생 수"
+    },
+    {
+      "path": "10-2-2/data.csv",
+      "name": "10-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "자원봉사 참여율"
+    },
+    {
+      "path": "3-1-3/data.csv",
+      "name": "3-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "노동생산성"
+    },
+    {
+      "path": "9-3-6/data.csv",
+      "name": "9-3-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "비정규직 근로자 비율"
+    },
+    {
+      "path": "10-1-4/data.csv",
+      "name": "10-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "유아 천 명당 보육시설 수"
+    },
+    {
+      "path": "9-6-6/data.csv",
+      "name": "9-6-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "구분",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "주택-전세",
+                "주택-월세",
+                "아파트-전세",
+                "아파트-월세",
+                ""
+              ]
+            },
+            "title": "구분"
+          },
+          {
+            "name": "A. 시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "A. 시도"
+          },
+          {
+            "name": "B. 시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "여주시",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "B. 시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "월세/전세 가격지수"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "인구 순유입률"
+    },
+    {
+      "path": "9-6-3/data.csv",
+      "name": "9-6-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "자가 보유율"
+    },
+    {
+      "path": "5-3-1/data.csv",
+      "name": "5-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고등교육이수자 비율"
+    },
+    {
+      "path": "9-2-3/data.csv",
+      "name": "9-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고등교육이수자 비율"
+    },
+    {
+      "path": "9-5-2/data.csv",
+      "name": "9-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1일 평균 여가시간"
+    },
+    {
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "GRDP 증가율"
+    },
+    {
+      "path": "9-3-3/data.csv",
+      "name": "9-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "고용률"
+    },
+    {
+      "path": "9-6-5/data.csv",
+      "name": "9-6-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "공공임대주택 수"
+    },
+    {
+      "path": "1-2-3/data.csv",
+      "name": "1-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "가구원당 평균 방수"
+    },
+    {
+      "path": "6-2-3/data.csv",
+      "name": "6-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "근로시간"
+    },
+    {
       "path": "9-1-4/data.csv",
       "name": "9-1-4",
       "profile": "tabular-data-resource",
@@ -3977,6 +5822,162 @@
       "title": "스트레스 인지율"
     },
     {
+      "path": "5-4-4/data.csv",
+      "name": "5-4-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "인구 백만 명당 응급의료기관 수"
+    },
+    {
+      "path": "6-3-2/data.csv",
+      "name": "6-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "가구당 연평균 경상소득"
+    },
+    {
+      "path": "5-3-4/data.csv",
+      "name": "5-3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "학교 생활 만족도"
+    },
+    {
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "인구 천 명당 도시공원조성면적"
+    },
+    {
       "path": "10-1-1/data.csv",
       "name": "10-1-1",
       "profile": "tabular-data-resource",
@@ -4016,8 +6017,8 @@
       "title": "공공보육시설 비율"
     },
     {
-      "path": "5-3-3/data.csv",
-      "name": "5-3-3",
+      "path": "9-3-4/data.csv",
+      "name": "9-3-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4052,160 +6053,7 @@
           }
         ]
       },
-      "title": "학교 교육의 효과"
-    },
-    {
-      "path": "5-2-3/data.csv",
-      "name": "5-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "통근 시간"
-    },
-    {
-      "path": "7-1-4/data.csv",
-      "name": "7-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "최종에너지 소비량"
+      "title": "근로시간"
     },
     {
       "path": "1-2-2/data.csv",
@@ -4250,50 +6098,8 @@
       "title": "인터넷 이용률"
     },
     {
-      "path": "4-2-4/data.csv",
-      "name": "4-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "삶의 만족도"
-    },
-    {
-      "path": "5-4-2/data.csv",
-      "name": "5-4-2",
+      "path": "10-1-6/data.csv",
+      "name": "10-1-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4403,11 +6209,11 @@
           }
         ]
       },
-      "title": "인구 증가율"
+      "title": "독거노인 비율"
     },
     {
-      "path": "9-4-2/data.csv",
-      "name": "9-4-2",
+      "path": "6-1-2/data.csv",
+      "name": "6-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4434,1617 +6240,6 @@
               ]
             },
             "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "소비생활 만족도"
-    },
-    {
-      "path": "10-1-3/data.csv",
-      "name": "10-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1인 가구 비율"
-    },
-    {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "가구당 연평균 경상소득"
-    },
-    {
-      "path": "9-1-5/data.csv",
-      "name": "9-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주관적 건강수준"
-    },
-    {
-      "path": "9-1-3/data.csv",
-      "name": "9-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 천 명당 의사 수"
-    },
-    {
-      "path": "5-2-6/data.csv",
-      "name": "5-2-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "공공임대주택 수"
-    },
-    {
-      "path": "9-5-3/data.csv",
-      "name": "9-5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 십만 명당 문화기반시설 수"
-    },
-    {
-      "path": "5-2-2/data.csv",
-      "name": "5-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "대중교통 접근성"
-    },
-    {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "고등교육이수자 비율1"
-    },
-    {
-      "path": "9-6-4/data.csv",
-      "name": "9-6-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주택당 평균 거주인 수"
-    },
-    {
-      "path": "6-2-2/data.csv",
-      "name": "6-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "근로여건만족도"
-    },
-    {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "공공기관 청렴도"
-    },
-    {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 백만 명당 특허 출원 건수"
-    },
-    {
-      "path": "4-1-2/data.csv",
-      "name": "4-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "유학생 수"
-    },
-    {
-      "path": "5-3-4/data.csv",
-      "name": "5-3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "학교 생활 만족도"
-    },
-    {
-      "path": "10-2-2/data.csv",
-      "name": "10-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "자원봉사 참여율"
-    },
-    {
-      "path": "9-3-6/data.csv",
-      "name": "9-3-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "비정규직 근로자 비율"
-    },
-    {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            },
-            "title": "시군구"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "기초생활보장 수급자 수"
-    },
-    {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "GRDP 전년 대비 증가율"
-    },
-    {
-      "path": "6-3-2/data.csv",
-      "name": "6-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "가구당 연평균 경상소득"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "국토계수당 도로연장"
-    },
-    {
-      "path": "3-1-3/data.csv",
-      "name": "3-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "노동생산성"
-    },
-    {
-      "path": "1-2-3/data.csv",
-      "name": "1-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "가구원당 평균 방수"
-    },
-    {
-      "path": "11-1-5/data.csv",
-      "name": "11-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 천 명당 범죄 발생 건수"
-    },
-    {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "창업기업 증감률"
-    },
-    {
-      "path": "10-2-4/data.csv",
-      "name": "10-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "사회단체 참여율"
-    },
-    {
-      "path": "9-6-1/data.csv",
-      "name": "9-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "주거환경 만족도"
-    },
-    {
-      "path": "2-2-2/data.csv",
-      "name": "2-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            },
-            "title": "지역"
           },
           {
             "name": "Value",
@@ -6054,201 +6249,6 @@
         ]
       },
       "title": "GRDP 중 연구개발비 지출 비중"
-    },
-    {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "인구 천 명당 도시공원조성면적"
-    },
-    {
-      "path": "11-1-2/data.csv",
-      "name": "11-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "녹지환경 만족도"
-    },
-    {
-      "path": "9-3-2/data.csv",
-      "name": "9-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "근로여건만족도"
-    },
-    {
-      "path": "9-2-1/data.csv",
-      "name": "9-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "학교생활 만족도"
-    },
-    {
-      "path": "9-5-2/data.csv",
-      "name": "9-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            },
-            "title": "시도"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1일 평균 여가시간"
     }
   ]
 }
